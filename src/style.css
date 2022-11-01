@@ -434,30 +434,6 @@ li.menuknop.scrolled:hover a {
 .portfolio .item:hover .beschrijving {opacity: 1;}
 .portfolio .item:hover .afbeelding img {transform: scale(1.05);}
 
-
-
-#afbeeldingTonen:empty {opacity: 0; pointer-events: none;}
-#afbeeldingTonen {
-  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-  bottom: 40px;
-  box-shadow: 0 0 0 40px rgba(0, 0, 0, 0.6);
-  left: 40px;
-  pointer-events: all;
-  position: fixed;
-  right: 40px;
-  top: 40px;
-  z-index: 2;
-}
-#afbeeldingTonen .afbeelding {
-    display: block;
-    height: 100%;
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-
-#afbeeldingTonen .afbeelding img {max-height: 100%; max-width: 100%;}
-
 form {
   margin: auto;
   max-width: 500px;
