@@ -33,7 +33,6 @@ input, textarea {font-family: "Roboto", Helvetica Neue, Helvetica, arial; backgr
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  
   position: relative;
 }
 .vak .inhoud img {max-width: 100%; height: auto !important;}
@@ -202,8 +201,8 @@ a.button:hover {
   background: #fff;
 }
 
-
-button.knop {background: #000 none repeat scroll 0 0;
+button.knop {
+    background: #000;
     border: medium none;
     border-radius: 3px;
     color: #fff;
@@ -221,98 +220,9 @@ hr {
   margin: 20px 0;
 }
 
-.navHolder {
-  color: #666;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  top: 0px;
-  display: none;
-}
-
-.navHolder .inhoud {
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 40px 20px;
-}
-
-.navHolder.scrolled .inhoud {
-}
-
-.navHolder .nav {
-  margin: 0 auto;
-  position: relative;
-  
-}
-
-.navHolder .nav ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.navHolder .nav ul li {
-  display: inline-block;
-}
-
-.navHolder .nav ul li a {
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid #fff;
-    color: #fff;
-    display: inline-block;
-    font-family: "Heebo",Helvetica Neue,Helvetica,arial;
-    font-size: 15px;
-    margin: 5px 10px;
-    min-width: 80px;
-    padding: 8px 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-}
-
-.navHolder .nav ul li:hover a {
-  color: #000;
-  background: rgba(255,255,255,1);
-}
-
-.navHolder .logo {
-  float: left;
-  padding: 10px 20px;
-}
-
-.navHolder .logo img {
-  width: 40px;
-}
-
-.navbutton {
-  display: none;
-}
-
-li.menuknop.scrolled a {
-  border: 2px solid #fff !important;
-}
-
-li.menuknop.scrolled:hover a {
-  border: 2px solid #fff !important;
-  background: #fff !important;
-  color: #fff !important;
-}
-
 .cleared {
   clear: both;
   font-size: 0;
-  height: 0;
-  height: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.mobile_cleared {
-  clear: both;
-  font-size: 0;
-  height: 0;
   height: 0;
   margin: 0;
   padding: 0;
@@ -341,10 +251,6 @@ li.menuknop.scrolled:hover a {
     margin: 0 10px;
 }
 
-.sociallink .icoon {
-  
-}
-
 .sociallink .icoon svg {
   font-size: 35px;
   
@@ -364,9 +270,6 @@ li.menuknop.scrolled:hover a {
   height: 1px;
   width: 5%;
 }
-
-
-
 
 .portfolio {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 .portfolio .item {opacity: .8; cursor: pointer; box-sizing: border-box; float: left; margin: 2px; overflow: hidden; position: relative; width: calc(25% - 4px);}
@@ -401,112 +304,12 @@ table {
 }
 
 @media screen and (max-width: 1240px) {
-  .vak .inhoud, .navHolder .inhoud {
-    max-width: 1000px !important;
+  .vak .inhoud {
+    max-width: 1000px;
   }
 }
 @media screen and (max-width: 1040px) {
-  .vak .inhoud, .navHolder .inhoud {
-    max-width: 700px !important;
+  .vak .inhoud {
+    max-width: 700px;
   }
-}
-@media screen and (max-width: 510px) {
-  .navHolder {
-    position: relative;
-  }
-
-  .navHolder .logo {
-    float: none;
-    margin: 0 auto;
-    padding: 10px 20px;
-    position: relative;
-    width: 40px;
-  }
-
-  .navHolder .nav {
-    float: none;
-    margin: 0 auto;
-    height: auto;
-  }
-
-  .navHolder .nav ul li {
-    float: none;
-  }
-
-  .vak.header {
-    margin: 0;
-  }
-
-
-  .navHolder .inhoud {    background: #000;}
-
-
-  .navHolder.scrolled .inhoud {
-    padding: 20px !important;
-  }
-
-
-
-  li.menuknop.scrolled a {
-    border: 0 solid  !important;
-  }
-
-  li.menuknop.scrolled:hover a {
-    border: 0px solid #fff !important;
-    background: #fff !important;
-    color: #fff !important;
-  }
-
-
-  .sociallink {
-
-  }
-
-  .navbutton {
-    display: block;
-    z-index: 10;
-    left: 17px;
-    color: #fff;
-    font-size: 30px;
-    position: absolute;
-    top: 28px;
-  }
-
-  .navbutton:hover {
-    cursor: pointer;
-  }
-
-  .nav {
-    max-height: 0px;
-    overflow: hidden;
-  }
-
-  .nav.open {
-    max-height: 600px;
-  }
-
-  .navHolder .nav ul li {
-    border-bottom: 1px dashed #ccc;
-    text-align: left;
-    display: block;
-  }
-
-  .navHolder .nav ul li:last-child {
-    border: 0;
-  }
-
-  .navHolder .nav ul li a {
-    background: none;
-    border: 0 none;
-    box-sizing: border-box;
-    display: block;
-    margin: 0;
-    padding: 7px;
-    font-size: 20px;
-  }
-
-  .navHolder .inhoud {padding: 80px 10px 10px;}
-
-  .navHolder.scrolled .inhoud { padding: 80px 10px 10px !important;}
-
 }
