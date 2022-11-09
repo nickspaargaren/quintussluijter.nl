@@ -1,3 +1,10 @@
 import "./style.css";
-import "@fortawesome/fontawesome-free/js/fontawesome";
-import "@fortawesome/fontawesome-free/js/brands";
+import { dom, library } from "@fortawesome/fontawesome-svg-core";
+import {
+	faFacebookSquare,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(faFacebookSquare, faInstagram);
+
+dom.i2svg();
