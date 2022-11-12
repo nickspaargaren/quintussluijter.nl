@@ -2,22 +2,18 @@
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
 
 body {
   background: #fff;
-  font-family: "Roboto", Helvetica Neue, Helvetica, arial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 13px;
   color: #404040;
   line-height: 1.35em;
 }
 
 iframe {max-width: 100%;}
-
-input, textarea {font-family: "Roboto", Helvetica Neue, Helvetica, arial; background: #f1f1f1; border-radius: 3px; padding: 10px !important;}
-
 
 .vak {
   position: relative;
@@ -146,7 +142,6 @@ h1 {
   font-size: 25px;
   line-height: 1.25em;
   color: #404040;
-  font-family: "Heebo", Helvetica Neue, Helvetica, arial;
 }
 
 
@@ -163,7 +158,7 @@ h2 {
   font-size: 26px;
   line-height: 1.1em;
   color: #404040;
-  font-family: "Heebo", Helvetica Neue, Helvetica, arial;}
+}
 
 h2 em {color: #923c49; font-weight: 300; font-style: normal; text-transform: uppercase; line-height: 1em; font-size: 18px;}
 
@@ -173,7 +168,6 @@ h3 {
   font-size: 15px;
   color: #404040;
   line-height: 1.25em;
-  font-family: "Heebo", Helvetica Neue, Helvetica, arial;
 }
 
 p {
@@ -194,7 +188,6 @@ a.button {
   background: #fff;
   color: #fff;
   border-radius: 3px;
-  font-family: "Heebo", Helvetica Neue, Helvetica, arial;
 }
 
 a.button:hover {
@@ -206,7 +199,6 @@ button.knop {
     border: medium none;
     border-radius: 3px;
     color: #fff;
-    font-family: "Heebo",Helvetica Neue,Helvetica,arial;
     font-size: 14px;
     padding: 3px 8px;
     cursor: pointer;
@@ -289,10 +281,12 @@ form {
 
 input,
 textarea {
+  background: #f1f1f1;
+  border-radius: 3px;
   width: 100%;
   box-sizing: border-box;
   border: 0;
-  padding: 5px;
+  padding: 10px;
   margin: 0 0 5px 0;
   font-family: "Helvetica Neue", Arial;
   font-size: 13px;
