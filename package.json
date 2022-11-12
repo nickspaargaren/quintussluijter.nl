@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack --mode=production --node-env=production",
+    "build": "webpack",
     "check": "npx rome check src",
     "format": "npx rome format src"
   },

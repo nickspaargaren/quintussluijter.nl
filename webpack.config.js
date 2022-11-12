@@ -1,9 +1,9 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-const isProduction = process.env.NODE_ENV === "production";
 
-const config = {
+module.exports = {
+	mode: "production",
 	entry: "./src/index.js",
 	output: {
 		path: path.resolve(__dirname, "dist"),
@@ -13,7 +13,6 @@ const config = {
 		new HtmlWebpackPlugin({
 			template: "src/index.html",
 		}),
-
 		new CopyPlugin({
 			patterns: [{ from: "src/uploads", to: "images" }],
 		}),
@@ -26,13 +25,4 @@ const config = {
 			},
 		],
 	},
-};
-
-module.exports = () => {
-	if (isProduction) {
-		config.mode = "production";
-	} else {
-		config.mode = "development";
-	}
-	return config;
 };
