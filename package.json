@@ -5,7 +5,8 @@
     "preview": "vite preview",
     "check": "rome check src",
     "format": "rome format src",
-    "format:fix": "rome format src --write"
+    "format:fix": "rome format src --write",
+    "ci": "rome ci src"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
