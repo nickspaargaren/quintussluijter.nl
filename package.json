@@ -3,8 +3,9 @@
     "dev": "vite",
     "build": "vite build --base ./",
     "preview": "vite preview",
-    "check": "npx rome check src",
-    "format": "npx rome format src"
+    "check": "rome check src",
+    "format": "rome format src",
+    "format:fix": "rome format src --write"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
