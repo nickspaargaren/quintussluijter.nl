@@ -5,9 +5,9 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import FiatPunto from './uploads/Fiat-punto.jpg'
+import FiatPunto from "./uploads/Fiat-punto.jpg";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div class="vak bovenkant">
     <div class="inhoud">
       <div class="logo">
@@ -84,7 +84,7 @@ document.querySelector('#app').innerHTML = `
       </form>
     </div>
   </div>
-`
+`;
 
 library.add(faFacebookSquare, faInstagram);
 
