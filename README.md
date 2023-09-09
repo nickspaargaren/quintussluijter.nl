@@ -1,5 +1,5 @@
 # Quintus Sluijter
 
 ## Local Development
-- Run `npm install`.
-- Run `npm run build` to build.
+- Run `bun install`.
+- Run `bun run build` to build.
