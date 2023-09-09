@@ -12,6 +12,6 @@
     "vite": "^4.3.7",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
-    "rome": "^10.0.0"
+    "rome": "^12.1.3"
   }
 }
