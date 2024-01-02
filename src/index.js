@@ -1,13 +1,13 @@
-import "./style.css";
-import { dom, library } from "@fortawesome/fontawesome-svg-core";
+import './style.css'
+import { dom, library } from '@fortawesome/fontawesome-svg-core'
 import {
-	faFacebookSquare,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+  faFacebookSquare,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons'
 
-import FiatPunto from "./uploads/Fiat-punto.jpg";
+import FiatPunto from './uploads/Fiat-punto.jpg'
 
-document.querySelector("#app").innerHTML = `
+document.querySelector('#app').innerHTML = `
   <div class="vak bovenkant">
     <div class="inhoud">
       <div class="logo">
@@ -84,8 +84,8 @@ document.querySelector("#app").innerHTML = `
       </form>
     </div>
   </div>
-`;
+`
 
-library.add(faFacebookSquare, faInstagram);
+library.add(faFacebookSquare, faInstagram)
 
-dom.i2svg();
+dom.i2svg()

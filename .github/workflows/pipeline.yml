@@ -4,9 +4,9 @@ jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: oven-sh/setup-bun@v1
-    - name: Run bun install
-      run: bun install
-    - name: Run CI
-      run: bun run ci
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+      - name: Run bun install
+        run: bun install
+      - name: Run lint
+        run: bun run lint
