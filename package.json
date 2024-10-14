@@ -3,13 +3,11 @@
     "dev": "vite",
     "build": "vite build --base ./",
     "preview": "vite preview",
-    "lint": "standard",
-    "format": "standard --fix"
+    "format": "deno fmt"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "standard": "^17.1.0",
     "vite": "^5.0.10"
   }
 }
