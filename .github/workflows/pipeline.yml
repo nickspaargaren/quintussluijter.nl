@@ -10,5 +10,7 @@ jobs:
           deno-version: v2.x
       - name: Run deno install
         run: deno install
-      - name: Run lint
-        run: deno run lint
+      - name: Check linter
+        run: deno lint
+      - name: Check formatting
+        run: deno fmt --check
