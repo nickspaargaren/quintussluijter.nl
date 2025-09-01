@@ -8,6 +8,6 @@
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "vite": "^5.0.10"
+    "vite": "^7.0.0"
   }
 }
