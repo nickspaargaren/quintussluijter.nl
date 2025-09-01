@@ -6,8 +6,8 @@
     "format": "deno fmt"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
     "vite": "^5.0.10"
   }
 }
