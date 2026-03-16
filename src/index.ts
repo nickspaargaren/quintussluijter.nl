@@ -7,7 +7,10 @@ import {
 
 import FiatPunto from "./uploads/Fiat-punto.jpg";
 
-document.querySelector("#app").innerHTML = `
+const app = document.querySelector("#app");
+
+if (app) {
+  app.innerHTML = `
   <div class="vak bovenkant">
     <div class="inhoud">
       <div class="logo">
@@ -85,6 +88,7 @@ document.querySelector("#app").innerHTML = `
     </div>
   </div>
 `;
+}
 
 library.add(faFacebookSquare, faInstagram);
 
