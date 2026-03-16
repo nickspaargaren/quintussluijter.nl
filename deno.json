@@ -1,5 +1,9 @@
 {
+  "exclude": ["dist/"],
   "lint": {
     "include": ["src/"]
+  },
+  "compilerOptions": {
+    "lib": ["dom", "deno.ns"]
   }
 }
