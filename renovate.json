@@ -1,9 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ],
-  "schedule": [
-    "before 10:00 on Monday"
-  ]
+  "extends": ["config:recommended"],
+  "schedule": ["before 10:00 on Monday"]
 }
