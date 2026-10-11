@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -104,7 +105,10 @@ iframe {
 .vak.header .inhoud {
   padding: 140px 20px 170px;
 }
-.vak.header h1, .vak.header h2, .vak.header h3, .vak.header p {
+.vak.header h1,
+.vak.header h2,
+.vak.header h3,
+.vak.header p {
   color: #fff;
 }
 
